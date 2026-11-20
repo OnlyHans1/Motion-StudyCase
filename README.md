@@ -1,17 +1,48 @@
-# tasktracker_motion
+# Mini Task Tracker / Catatan Harian Sederhana
 
-A new Flutter project.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## Identitas Peserta
+- **Nama:** Rhaihan Aditya Hidayat
+- **NIM:** 103022500105
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Screenshot / Demo Aplikasi
+
+### Demo Aplikasi
+![Demo Screenshot Aplikasi](images/screenshot.png)
+
+### Referensi UI
+![Referensi UI](images/referensi.png)
+
+---
+
+## Cara Menjalankan Aplikasi (How to Run)
+1. Pastikan **Flutter SDK** sudah terpasang di perangkat kamu (`flutter --version`).
+2. Clone repositori ini:
+   ```bash
+   git clone <url-repositori-github>
+   cd Motion-StudyCase
+   ```
+3. Ambil semua dependency Flutter:
+   ```bash
+   flutter pub get
+   ```
+4. Jalankan aplikasi di emulator atau perangkat fisik:
+   ```bash
+   flutter run
+   ```
+
+---
+
+### Deklarasi Penggunaan AI
+- Apakah menggunakan AI? Ya
+- Tool AI yang digunakan: Gemini
+- Estimasi persentase kontribusi AI: 35%
+- Bagian kode/fitur yang dibantu AI:
+  Referensi perapihan tampilan komponen `CardTask` pada `lib/widgets/card.dart` dan penyesuaian tampilan `ListView.builder` bertumpuk di `lib/main.dart`.
+- Pernyataan:
+  "Saya menyatakan bahwa saya memahami alur dan fungsi dari seluruh kode yang ada dalam repositori ini"
